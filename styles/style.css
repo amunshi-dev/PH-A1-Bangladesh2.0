@@ -95,6 +95,10 @@ main {
   padding: 17px 34px;
   cursor: pointer;
 }
+.btn-primary:hover{
+  background-color:#006a50b5;
+  transition: background-color 0.4s;
+}
 /* .btn-primary {
   border: none;
   background-color: #006a50;
@@ -129,6 +133,13 @@ main {
   font-weight: 600px;
   padding: 15px 30px;
   color: #006a50;
+}
+.nav .nav-btn-sign:hover{
+  background-color: #006a50;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.4s, border 0.4s;
 }
 /* HERO SECTION */
 .hero {
@@ -305,6 +316,13 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: rgba(14, 14, 14, 0.8);
+}
+
+.donate .amounts .amount:hover {
+  background-color: #c6e4d6;
+  cursor: pointer;
+  transition: background-color 0.4s;
 }
 .donate input {
   width: 1032px;
