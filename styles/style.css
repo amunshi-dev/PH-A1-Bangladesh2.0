@@ -166,6 +166,7 @@ main {
 .pillars .cards-container {
   height: 244px;
   justify-content: space-between;
+  gap: 24px;
 }
 .pillars .cards-container .card {
   width: 302px;
@@ -185,6 +186,7 @@ main {
 }
 .vision .vision-cards {
   justify-content: space-between;
+  gap: 24px;
 }
 .vision .vision-card {
   width: 410px;
