@@ -216,7 +216,16 @@ main {
   margin-top: auto;
   padding: 11px 20px;
 }
-
+.vision .vision-card:first-child> button:hover{
+  background-color: #548ff5bc;
+  cursor: pointer;
+  transition: background-color 0.4s;
+}
+.vision .vision-card:last-child> button:hover{
+  background-color: #f6b620;
+  cursor: pointer;
+  transition: background-color 0.4s;
+}
 /* Quote Section */
 .quote-section {
   padding: 48px 24px;
