@@ -175,7 +175,7 @@ main {
   margin-bottom: 32px;
 }
 .pillars .cards-container {
-  height: 244px;
+  /* height: 244px; */
   justify-content: space-between;
   gap: 24px;
 }
